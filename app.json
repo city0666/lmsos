@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "new1",
-    "slug": "new1",
+    "name": "LMS/os",
+    "slug": "lmsos",
     "platforms": [
       "ios",
       "android",
@@ -13,7 +13,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#404E5A"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,6 +23,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.appzheaven.LMSos",
+      "versionCode": 1
     }
   }
 }
